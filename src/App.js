@@ -31,7 +31,6 @@ function handleState(eventWrite) {
   
 }
 function isCorrect(respuesta) {
-  console.log(respuesta)
   if(parseInt(respuesta)=== solution){
     console.log("Respuesta Correcta")
     
@@ -53,7 +52,7 @@ function isResult(){
 function countTime(){
   setTimeout(()=>setinttime(true), 30000 );
 }
-console.log(instime)
+
   return (
     
 
