@@ -61,7 +61,7 @@ function isResult(){
 }
 
 function countTime(){
-  setTimeout(()=>setinttime(true), 30000);
+  setTimeout(()=>setinttime(true), 300000);
 }
 
   return (
